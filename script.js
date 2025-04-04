@@ -42,4 +42,15 @@ if(saldoFinal < 0){
 } else{
     console.log('A empresa teve lucro durante o período desse ano.');
 }
-// Encerramento da questão 3 
+//Encerramento da questão 3 
+
+//Questão 4 - Números em Ordem Decrescente:
+let 
+
+
+
+//Encerramento da questão 4
+
+//Questão 5 - Transformador de Par em Ímpar:
+
+//Encerramento da questão 5
