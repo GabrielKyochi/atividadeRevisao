@@ -45,12 +45,22 @@ if(saldoFinal < 0){
 //Encerramento da questão 3 
 
 //Questão 4 - Números em Ordem Decrescente:
-let 
 
 
 
 //Encerramento da questão 4
 
 //Questão 5 - Transformador de Par em Ímpar:
-
+let numeroParOuImpar = parseFloat(prompt('Escreva um valor para transformálo de par para ímpar ou vice-versa:'));
+if(numeroParOuImpar % 2 === 0){
+    console.log('O seu valor é par! e ele é: ' + numeroParOuImpar);
+    console.log('Agora iremos transformá-lo em ímpar...');
+    numeroParOuImpar = numeroParOuImpar + 1;
+    console.log('O seu novo número ímpar é:' + numeroParOuImpar);
+} else{
+    console.log("O seu valor é ímpar!");
+    console.log('Agora iremos transformá-lo em par...');
+    numeroParOuImpar = numeroParOuImpar + 1;
+    console.log('O seu novo número par é:' + numeroParOuImpar);
+}
 //Encerramento da questão 5
