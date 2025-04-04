@@ -64,3 +64,7 @@ if(numeroParOuImpar % 2 === 0){
     console.log('O seu novo número par é:' + numeroParOuImpar);
 }
 //Encerramento da questão 5
+
+//Questão 6 - Vogal ou Consoante:
+
+//Encerramento da questão 6
