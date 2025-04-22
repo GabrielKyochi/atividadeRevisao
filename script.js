@@ -16,12 +16,9 @@ somarValores(qtdValores);
 //Questão 2 - Contagem Regressiva da NASA:
 
 function contagemRegressiva(){
-
+    alert('Lançamento!');
 }
-
-
-setInterval(contagemRegressiva, 1000);
-
+    setInterval(contagemRegressiva, 10000);
 //Encerramento da questão 2
 
 //Questão 3 - Balanço Financeiro Anual:
