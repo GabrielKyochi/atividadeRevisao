@@ -42,8 +42,22 @@ if(saldoFinal < 0){
 //Encerramento da questão 3 
 
 //Questão 4 - Números em Ordem Decrescente:
+let n1 = prompt('Escreva um primeiro número:');
+let n2 = prompt('Escreva um segundo número:');
+let n3 = prompt('Escreva um terceiro número:');
+let n4 = prompt('Escreva um quarto número:');
 
 
+function numerosOrdemDecrescente(n1, n2, n3, n4){
+    const numeros = [n1, n2, n3, n4];
+    numeros.sort();
+    console.log('Esses são os valores em ordem aleatória:')
+    console.log(numeros);
+    console.log('Agora iremos ver os números em ordem decrescente:')
+    numeros.reverse();
+    console.log(numeros);
+}
+numerosOrdemDecrescente(n1, n2, n3, n4);
 
 //Encerramento da questão 4
 
