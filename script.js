@@ -77,5 +77,18 @@ if(numeroParOuImpar % 2 === 0){
 //Encerramento da questão 5
 
 //Questão 6 - Vogal ou Consoante:
+let vogalOuConsoante = prompt("Escreva uma vogal ou uma consoante")
 
+function verificarVogalOuConsoante(vogalOuConsoante){
+if(vogalOuConsoante === 'a' || vogalOuConsoante === 'A' || vogalOuConsoante === 'e' || vogalOuConsoante === 'E' || vogalOuConsoante === 'i' || vogalOuConsoante === 'I' || vogalOuConsoante === 'u' || vogalOuConsoante === 'i'){
+    console.log('A sua palavra é uma vogal!');
+} else{
+    console.log('A sua palavra é uma consoante!');
+}
+}
+verificarVogalOuConsoante(vogalOuConsoante);
 //Encerramento da questão 6
+
+//Questão 7 - Cardápio da Picoleteria:
+
+// Encerramento da questão 6
