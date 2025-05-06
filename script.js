@@ -77,7 +77,7 @@ if(numeroParOuImpar % 2 === 0){
 //Encerramento da questão 5
 
 //Questão 6 - Vogal ou Consoante:
-let vogalOuConsoante = prompt("Escreva uma vogal ou uma consoante")
+let vogalOuConsoante = prompt('Escreva uma vogal ou uma consoante')
 
 function verificarVogalOuConsoante(vogalOuConsoante){
 if(vogalOuConsoante === 'a' || vogalOuConsoante === 'A' || vogalOuConsoante === 'e' || vogalOuConsoante === 'E' || vogalOuConsoante === 'i' || vogalOuConsoante === 'I' || vogalOuConsoante === 'u' || vogalOuConsoante === 'i'){
@@ -90,5 +90,27 @@ verificarVogalOuConsoante(vogalOuConsoante);
 //Encerramento da questão 6
 
 //Questão 7 - Cardápio da Picoleteria:
+alert('Os sabores da Picoleteria são: Chocolate, Morango, Creme, Manga, Melancia, Vanilla Ice, Céu Azul, Brownie, Hawaiano')
+let escolhaSabor = prompt('Escreva o sabor que você deseja comprar em letra minúscula, sem acento e tudo junto:')
 
-// Encerramento da questão 6
+function precoPicole(escolhaSabor){
+    if(escolhaSabor === 'chocolate'){
+        console.log('O picole custou R$1,50');
+    } if(escolhaSabor === 'morango' || escolhaSabor === 'Creme'){
+        console.log('O picolé custou R$2,50');
+    } if(escolhaSabor === 'manga'){
+        console.log('O picolé custou R$3,20');
+    } if(escolhaSabor === 'melancia'){
+        console.log('O picolé custou R$3,40');
+    } if(escolhaSabor === 'vanillaace'){
+        console.log('O picolé custou R$3,00');
+    } if(escolhaSabor === 'ceuazul'){
+        console.log('O picolé custou R$3,60');
+    } if(escolhaSabor === 'brownie'){
+        console.log('O picolé custou R$4,00');
+    } if(escolhaSabor === 'Hawaiano'){
+        console.log('O picolé custou R$5,00');
+    }
+}
+precoPicole(escolhaSabor);
+// Encerramento da questão 7
