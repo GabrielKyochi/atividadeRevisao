@@ -116,12 +116,12 @@ precoPicole(escolhaSabor);
 //Encerramento da questão 7
 
 //Questão 8 - Jogo de Adivinhação  
-let numeroAleatorio = Math.floor(Math.random(1) * 100);
+let numeroAleatorio = Math.floor(Math.random(1) * 2);
 var advinhacao = 0;
 
 function jogoAdvinhacao(numeroAleatorio){
     while(advinhacao !== numeroAleatorio){
-    numeroAleatorio = Math.floor(Math.random(1) * 10);
+    numeroAleatorio = Math.floor(Math.random(1) * 100);
     advinhacao = parseFloat(prompt('Escreva um número de 1 a 100 para tentar advinhar um valor sorteado:'));
     alert('Você não conseguiu, tente denovo!');
     }
@@ -130,3 +130,17 @@ function jogoAdvinhacao(numeroAleatorio){
 }
 jogoAdvinhacao(numeroAleatorio);
 //Encerramento da questão 8
+
+//Questão 9 - Contador de Vogais
+let fraseVogais = prompt('Escreva uma frase para contar as vogais:');
+let quantidadeVogais = 0;
+
+function contarVogais(fraseVogais){
+    for(let i = 0; i < fraseVogais.length; i++)
+    if(fraseVogais[i] == 'a' || fraseVogais[i] == 'A' || fraseVogais[i] == 'e' || fraseVogais[i] == 'E' || fraseVogais[i] == 'i' || fraseVogais[i] == 'I' || fraseVogais[i] == 'o' || fraseVogais[i] == 'O' || fraseVogais[i] == 'u' || fraseVogais[i] == 'U'){
+    quantidadeVogais++;
+    }
+    console.log('O número de vogais presente na sua frase é: ' + quantidadeVogais);
+}
+contarVogais(fraseVogais);
+//Encerramento da questão 9
