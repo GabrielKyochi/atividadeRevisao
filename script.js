@@ -144,3 +144,7 @@ function contarVogais(fraseVogais){
 }
 contarVogais(fraseVogais);
 //Encerramento da questão 9
+
+//Questão 10 -  Validador de Senha  
+
+//Encerramento da questão 10
