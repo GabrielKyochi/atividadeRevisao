@@ -113,4 +113,20 @@ function precoPicole(escolhaSabor){
     }
 }
 precoPicole(escolhaSabor);
-// Encerramento da questão 7
+//Encerramento da questão 7
+
+//Questão 8 - Jogo de Adivinhação  
+let numeroAleatorio = Math.floor(Math.random(1) * 100);
+var advinhacao = 0;
+
+function jogoAdvinhacao(numeroAleatorio){
+    while(advinhacao !== numeroAleatorio){
+    numeroAleatorio = Math.floor(Math.random(1) * 10);
+    advinhacao = parseFloat(prompt('Escreva um número de 1 a 100 para tentar advinhar um valor sorteado:'));
+    alert('Você não conseguiu, tente denovo!');
+    }
+    alert('Você conseguiu!');
+    console.log('O número sorteado era: ' + advinhacao);
+}
+jogoAdvinhacao(numeroAleatorio);
+//Encerramento da questão 8
