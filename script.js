@@ -146,5 +146,16 @@ contarVogais(fraseVogais);
 //Encerramento da questão 9
 
 //Questão 10 -  Validador de Senha  
+let senha = prompt('Escreva uma senha com no mínimo 8 caracteres, contendo pelo menos uma letra maíuscula, uma letra minúscula e um número:')
 
+function validarSenha(senha){
+    for (let i = 0; i < senha.length; i++){
+        if (senha[i] >= 'A' && senha[i] <= 'Z' && senha[i] >= 8 && senha[i] >= 'a' && senha[i] <= 'z' && senha[i] ) {
+            console.log('Sua senha está válida!');
+          } else{
+            console.log('Sua senha está inválida!');
+          }
+    }
+}
+validarSenha(senha);
 //Encerramento da questão 10
